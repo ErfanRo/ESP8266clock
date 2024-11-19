@@ -25,13 +25,20 @@ WeMos D1  oled display  ssd1306 wiring
 به صورت خلاصه اتصالات به این شکل است:
 
 قطعه	پایه	به پایه ESP8266
-OLED	VCC	3.3V
-OLED	GND	GND
-OLED	SDA	D2
-OLED	SCL	D1
-WS2812 LED	VCC	5V
-WS2812 LED	GND	GND
-WS2812 LED	DIN	D5
+##OLED	VCC	3.3V
+
+##OLED	GND	GND
+
+##OLED	SDA	D2
+
+##OLED	SCL	D1
+
+##WS2812 LED	VCC	5V
+
+##WS2812 LED	GND	GND
+
+##WS2812 LED	DIN	D5
+
 نکته مهم
 حتماً دقت کنید که نمایشگر OLED و LED WS2812 به ولتاژ مناسب متصل شده‌اند، زیرا بعضی از ماژول‌ها ممکن است با ولتاژهای متفاوت سازگار باشند.
 در صورت استفاده از LEDهای بیشتر از یک عدد، دقت کنید که منبع تغذیه‌ی مناسب برای LED‌ها را فراهم کنید تا از عملکرد صحیح و عدم داغ شدن جلوگیری شود.
