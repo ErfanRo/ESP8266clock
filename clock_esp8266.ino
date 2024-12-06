@@ -1,3 +1,4 @@
+// package_esp8266 ver: 2.6.0 only work "https://arduino.esp8266.com/stable/package_esp8266com_index.json"
 #include <ESP8266WiFi.h>
 #include <time.h>
 #include <SPI.h>
