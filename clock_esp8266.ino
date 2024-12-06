@@ -99,9 +99,9 @@ void loop() {
     // نمایش تاریخ در پایین صفحه
     display.setTextSize(2,1);
     display.setCursor(10, 25);
-    display.print(p_tm->tm_mday);
-    display.print("/");
     display.print(p_tm->tm_mon + 1);
+    display.print("/");
+    display.print(p_tm->tm_mday);
     display.print("/");
     display.print(p_tm->tm_year + 1900);
 
